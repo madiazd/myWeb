@@ -1,0 +1,32 @@
+2024-11-16 20:38:12.844 [info] [main] Log level: Info
+2024-11-16 20:38:12.844 [info] [main] Validating found git in: "git"
+2024-11-16 20:38:12.844 [info] [main] Using git "2.43.0" from "git"
+2024-11-16 20:38:12.844 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-16 20:38:12.844 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-16 20:38:12.844 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:38:12.844 [info] > git rev-parse --show-toplevel [4ms]
+2024-11-16 20:38:12.844 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:38:12.844 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-16 20:38:17.614 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 20:38:17.614 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:40:02.298 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 20:40:02.299 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:40:07.515 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-16 20:40:07.515 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:42:21.929 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 20:42:21.929 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:42:24.449 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 20:42:24.450 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:42:24.453 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 20:42:24.453 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:42:25.388 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 20:42:25.388 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:42:26.016 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/d/". Error:Error: ENOENT: no such file or directory, realpath '/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/d/'
+2024-11-16 20:42:26.019 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/es5-ext/". Error:Error: ENOENT: no such file or directory, realpath '/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/es5-ext/'
+2024-11-16 20:42:26.021 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/acorn-jsx/node_modules/acorn/". Error:Error: ENOENT: no such file or directory, realpath '/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/acorn-jsx/node_modules/acorn/'
+2024-11-16 20:42:26.023 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/es6-symbol/". Error:Error: ENOENT: no such file or directory, realpath '/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/es6-symbol/'
+2024-11-16 20:42:26.026 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/balanced-match/". Error:Error: ENOENT: no such file or directory, realpath '/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/balanced-match/'
+2024-11-16 20:42:26.028 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/ext/". Error:Error: ENOENT: no such file or directory, realpath '/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/ext/'
+2024-11-16 20:42:26.031 [warning] [Model][getRepositoryExact] Failed to get repository realpath for: "/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/supports-preserve-symlinks-flag/". Error:Error: ENOENT: no such file or directory, realpath '/home/madiazd/.vscode-server/extensions/.4dc603de-35ba-4dd1-a77f-e39981bfe72f/node_modules/supports-preserve-symlinks-flag/'
+2024-11-16 20:42:28.000 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-16 20:42:28.000 [info] fatal: not a git repository (or any of the parent directories): .git

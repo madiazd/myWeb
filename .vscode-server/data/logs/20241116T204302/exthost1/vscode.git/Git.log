@@ -1,0 +1,65 @@
+2024-11-16 20:43:03.894 [info] [main] Log level: Info
+2024-11-16 20:43:03.894 [info] [main] Validating found git in: "git"
+2024-11-16 20:43:03.894 [info] [main] Using git "2.43.0" from "git"
+2024-11-16 20:43:03.894 [info] [Model][doInitialScan] Initial repository scan started
+2024-11-16 20:43:03.894 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-16 20:43:03.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:43:03.894 [info] > git rev-parse --show-toplevel [3ms]
+2024-11-16 20:43:03.894 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:43:03.895 [info] > git rev-parse --show-toplevel [2ms]
+2024-11-16 20:43:03.895 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:43:03.951 [info] > git rev-parse --show-toplevel [54ms]
+2024-11-16 20:43:03.951 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 20:43:03.954 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-11-16 20:43:05.674 [info] > git rev-parse --show-toplevel [1ms]
+2024-11-16 20:43:05.674 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-11-16 22:23:27.880 [info] > git rev-parse --show-toplevel [14ms]
+2024-11-16 22:23:27.885 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-11-16 22:23:27.898 [info] [Model][openRepository] Opened repository: /home/madiazd
+2024-11-16 22:23:27.907 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-16 22:23:27.908 [info] > git config --get commit.template [4ms]
+2024-11-16 22:23:27.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-16 22:23:27.909 [warning] [Git][getBranch] No such branch: master
+2024-11-16 22:23:27.917 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 22:23:28.366 [info] > git status -z -uall [455ms]
+2024-11-16 22:23:28.494 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-11-16 22:23:28.494 [warning] [Git][getBranch] No such branch: master
+2024-11-16 22:23:28.495 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-11-16 22:23:28.999 [info] > git config --get commit.template [507ms]
+2024-11-16 22:23:29.060 [info] [Git][getRemotes] No remotes found in the git config file
+2024-11-16 22:23:29.061 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 22:23:29.062 [warning] [Git][getBranch] No such branch: master
+2024-11-16 22:23:29.070 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 22:23:29.107 [info] > git status -z -uall [39ms]
+2024-11-16 22:24:27.799 [info] > git check-ignore -v -z --stdin [18ms]
+2024-11-16 22:25:27.300 [info] > git ls-files --stage -- /home/madiazd/web.html [1ms]
+2024-11-16 22:25:27.309 [info] > git show --textconv :web.html [13ms]
+2024-11-16 22:25:27.310 [info] > git cat-file -s cd5ce06bac169cff581b7613b34d77e8cd7db87f [8ms]
+2024-11-16 22:28:27.859 [info] > git check-ignore -v -z --stdin [2ms]
+2024-11-16 23:20:09.908 [info] > git config --get commit.template [10ms]
+2024-11-16 23:20:09.910 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-11-16 23:20:09.933 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-11-16 23:20:09.935 [info] > git ls-files --stage -- /home/madiazd/web.html [4ms]
+2024-11-16 23:20:09.942 [info] > git cat-file -s cd5ce06bac169cff581b7613b34d77e8cd7db87f [0ms]
+2024-11-16 23:20:09.994 [info] > git show --textconv :web.html [2ms]
+2024-11-16 23:20:10.408 [info] > git status -z -uall [493ms]
+2024-11-16 23:20:15.512 [info] > git config --get commit.template [4ms]
+2024-11-16 23:20:15.512 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 23:20:15.519 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 23:20:15.551 [info] > git status -z -uall [37ms]
+2024-11-16 23:20:20.632 [info] > git config --get commit.template [5ms]
+2024-11-16 23:20:20.633 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 23:20:20.642 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-16 23:20:20.662 [info] > git status -z -uall [26ms]
+2024-11-16 23:20:25.721 [info] > git config --get commit.template [4ms]
+2024-11-16 23:20:25.722 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-11-16 23:20:25.728 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-11-16 23:20:25.759 [info] > git status -z -uall [35ms]
+2024-11-16 23:20:30.839 [info] > git config --get commit.template [3ms]
+2024-11-16 23:20:30.839 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2024-11-16 23:20:30.845 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-16 23:20:30.868 [info] > git status -z -uall [27ms]
+2024-11-16 23:20:35.942 [info] > git config --get commit.template [5ms]
+2024-11-16 23:20:35.942 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-11-16 23:20:35.950 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-11-16 23:20:35.971 [info] > git status -z -uall [26ms]

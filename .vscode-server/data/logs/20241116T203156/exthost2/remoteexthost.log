@@ -1,0 +1,17 @@
+2024-11-16 20:38:11.145 [info] Extension host with pid 4308 started
+2024-11-16 20:38:11.165 [info] Lock '/home/madiazd/.vscode-server/data/User/workspaceStorage/96e01e3a329586d7c93d4dd62db94dde/vscode.lock': Lock acquired.
+2024-11-16 20:38:11.193 [info] Eager extensions activated
+2024-11-16 20:38:12.574 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-11-16 20:38:12.575 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: false, activationEvent: '*', root cause: vscode.git
+2024-11-16 20:38:12.576 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-11-16 20:38:12.667 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: '*'
+2024-11-16 20:38:12.667 [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+2024-11-16 20:38:17.483 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2024-11-16 20:38:17.484 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-11-16 20:39:16.268 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
+2024-11-16 20:39:16.269 [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onDebugResolve:pwa-chrome'
+2024-11-16 20:39:16.659 [info] ExtensionService#_doActivateExtension vscode.tunnel-forwarding, startup: false, activationEvent: 'onTunnel'
+2024-11-16 20:42:25.516 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2024-11-16 20:42:39.781 [info] Extension host terminating: received terminate message from renderer
+2024-11-16 20:42:39.782 [info] Lock '/home/madiazd/.vscode-server/data/User/workspaceStorage/96e01e3a329586d7c93d4dd62db94dde/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2024-11-16 20:42:39.851 [info] Extension host with pid 4308 exiting with code 0

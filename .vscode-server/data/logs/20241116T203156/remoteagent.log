@@ -1,0 +1,34 @@
+2024-11-16 20:31:56.883 [info] 
+
+
+
+
+2024-11-16 20:31:56.896 [info] Extension host agent started.
+2024-11-16 20:31:57.051 [info] [127.0.0.1][fa260f64][ManagementConnection] New connection established.
+2024-11-16 20:31:57.298 [info] [127.0.0.1][d07c9ba0][ExtensionHostConnection] New connection established.
+2024-11-16 20:31:57.310 [info] [127.0.0.1][d07c9ba0][ExtensionHostConnection] <1884> Launched Extension Host Process.
+2024-11-16 20:38:08.399 [info] [127.0.0.1][fa260f64][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-16 20:38:08.486 [info] [127.0.0.1][d07c9ba0][ExtensionHostConnection] <1884> Extension Host Process exited with code: 0, signal: null.
+2024-11-16 20:38:10.435 [info] [127.0.0.1][1337e2ef][ManagementConnection] New connection established.
+2024-11-16 20:38:10.671 [info] [127.0.0.1][6b721483][ExtensionHostConnection] New connection established.
+2024-11-16 20:38:10.680 [info] [127.0.0.1][6b721483][ExtensionHostConnection] <4308> Launched Extension Host Process.
+2024-11-16 20:39:49.537 [info] Getting Manifest... bianxianyang.htmlplay
+2024-11-16 20:39:49.815 [info] Installing extension: bianxianyang.htmlplay {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/madiazd/.vscode-server/extensions/extensions.json","external":"file:///home/madiazd/.vscode-server/extensions/extensions.json","path":"/home/madiazd/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-11-16 20:39:51.703 [info] Getting Manifest... wscats.cors-browser
+2024-11-16 20:39:51.953 [info] Installing extension: wscats.cors-browser {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/madiazd/.vscode-server/extensions/extensions.json","external":"file:///home/madiazd/.vscode-server/extensions/extensions.json","path":"/home/madiazd/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-11-16 20:39:52.965 [info] Extension signature verification result for bianxianyang.htmlplay: Success. Executed: true. Duration: 1949ms.
+2024-11-16 20:39:53.844 [info] Extension signature verification result for wscats.cors-browser: Success. Executed: true. Duration: 1059ms.
+2024-11-16 20:39:53.972 [info] Extracted extension to file:///home/madiazd/.vscode-server/extensions/wscats.cors-browser-1.0.11: wscats.cors-browser
+2024-11-16 20:39:53.989 [info] Renamed to /home/madiazd/.vscode-server/extensions/wscats.cors-browser-1.0.11
+2024-11-16 20:39:54.000 [info] Extension installed successfully: wscats.cors-browser file:///home/madiazd/.vscode-server/extensions/extensions.json
+2024-11-16 20:39:55.422 [info] Extracted extension to file:///home/madiazd/.vscode-server/extensions/bianxianyang.htmlplay-0.0.10: bianxianyang.htmlplay
+2024-11-16 20:39:55.443 [info] Renamed to /home/madiazd/.vscode-server/extensions/bianxianyang.htmlplay-0.0.10
+2024-11-16 20:39:55.454 [info] Extension installed successfully: bianxianyang.htmlplay file:///home/madiazd/.vscode-server/extensions/extensions.json
+2024-11-16 20:42:18.682 [info] Getting Manifest... ritwickdey.liveserver
+2024-11-16 20:42:18.905 [info] Installing extension: ritwickdey.liveserver {"installPreReleaseVersion":false,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"profileLocation":{"$mid":1,"fsPath":"/home/madiazd/.vscode-server/extensions/extensions.json","external":"file:///home/madiazd/.vscode-server/extensions/extensions.json","path":"/home/madiazd/.vscode-server/extensions/extensions.json","scheme":"file"},"productVersion":{"version":"1.95.3","date":"2024-11-13T14:50:04.152Z"}}
+2024-11-16 20:42:20.754 [info] Extension signature verification result for ritwickdey.liveserver: Success. Executed: true. Duration: 801ms.
+2024-11-16 20:42:25.245 [info] Extracted extension to file:///home/madiazd/.vscode-server/extensions/ritwickdey.liveserver-5.7.9: ritwickdey.liveserver
+2024-11-16 20:42:25.261 [info] Renamed to /home/madiazd/.vscode-server/extensions/ritwickdey.liveserver-5.7.9
+2024-11-16 20:42:25.272 [info] Extension installed successfully: ritwickdey.liveserver file:///home/madiazd/.vscode-server/extensions/extensions.json
+2024-11-16 20:42:39.778 [info] [127.0.0.1][1337e2ef][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-11-16 20:42:39.875 [info] [127.0.0.1][6b721483][ExtensionHostConnection] <4308> Extension Host Process exited with code: 0, signal: null.
